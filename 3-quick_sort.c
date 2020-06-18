@@ -58,7 +58,7 @@ size_t split(int *array,  size_t head, size_t pivot, size_t size)
 	}
 	if (array[head] > array[pivot])
 	{
-		swap(&array[head], &array[pivot])
+		swap(&array[head], &array[pivot]);
 		pivot = head;
 		print_array(array, size);
 	}
